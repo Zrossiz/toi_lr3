@@ -189,7 +189,7 @@ a b 3 * +
 
 
 
-
+```mermaid
 flowchart TD
   E["Expression"] --> AE["and_expr"]
   AE --> CMP["comparison"]
@@ -247,4 +247,4 @@ flowchart TD
   class E,AE,CMP,ADD0,MUL0,EX1,ADD1,MUL1,MUL2,U1,U1A,U1B,P1,P1A,P1B,EX2,ADD2,MUL3,MUL4,U2,U2A,U2B,P2,P2A,P2B nonterm;
   class PLUS,MINUS,STAR op;
   class AID,BID,CID,NUM,LPAR1,RPAR1,LPAR2,RPAR2 term;
-
+```
